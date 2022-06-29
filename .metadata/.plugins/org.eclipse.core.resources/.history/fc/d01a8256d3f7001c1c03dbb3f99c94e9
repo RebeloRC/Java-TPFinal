@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class AmostraTemperatura {
+	
+	private Scanner scan = new Scanner(System.in);
+	
+	private int numseq;
+	private Data data;
+	private Hora hora;
+	private float valor;
+	
+	public AmostraTemperatura() {
+		
+		this.setData();
+		this.setHora();
+		this.setValor();
+		
+	}
+	
+	public AmostraTemperatura(int a, int b, int c, int d, int e, int f, int v) {
+		
+		this.setData(a, b, c);
+		this.setHora(d, e ,f);
+		this.setValor(v);
+		
+	}
+
+	private void setData(int a, int b, int c) {
+		this.data = new Data(a ,b, c);
+		
+	}
+	
+
+
+}

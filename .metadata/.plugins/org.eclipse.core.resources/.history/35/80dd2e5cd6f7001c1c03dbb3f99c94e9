@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		AmostraTemperatura t1 = new AmostraTemperatura(29, 7, 2020, 20, 3, 35.2f); 
+		
+        System.out.println("data: " + t1.getData());
+        System.out.println("hora: " + t1.getHora());
+        System.out.println("valor: " + t1.getValor());
+        System.out.println("");
+
+	}
+
+}

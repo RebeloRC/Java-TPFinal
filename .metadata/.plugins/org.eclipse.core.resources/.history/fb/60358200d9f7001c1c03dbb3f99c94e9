@@ -1,0 +1,33 @@
+public class Main {
+
+    public static void main(String[] args){
+        AmostraTemperatura t1 = new AmostraTemperatura(4, 9, 2020, 17, 20, 3, 35.5f);
+
+
+        System.out.println("data: " + t1.getData());
+        System.out.println("hora: " + t1.getHora());
+        System.out.println("valor: " + t1.getValor());
+        System.out.println("");
+
+
+        AmostraTemperatura t2 = new AmostraTemperatura();
+
+
+        System.out.println("data: " + t2.getData());
+        System.out.println("hora: " + t2.getHora());
+        System.out.println("valor: " + t2.getValor());
+        System.out.println("");
+
+
+
+        t1.setData();
+        t1.setHora();
+        t1.setValor();
+
+
+        System.out.println("data: " + t1.getData());
+        System.out.println("hora: " + t1.getHora());
+        System.out.println("valor: " + t1.getValor());
+
+    }
+}

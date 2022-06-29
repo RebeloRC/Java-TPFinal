@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/bruxo/projects/JavaProjects/TPFinal/.metadata/.plugins/org.eclipse.jdt.core
+695073915.index
+3029844251.index
+1865797976.index
